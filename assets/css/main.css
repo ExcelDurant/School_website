@@ -150,6 +150,9 @@
 
 
 /*                    COURSES SECTION                 */
+#course-sec{
+    height: 100px;
+}
 
 .courses-sec{
     width: 100%;
@@ -197,9 +200,12 @@
 
 
 /*                   GALLERY SECTION               */
+#gallery-sec{
+    height: 100px;
+}
 
 .gallery-sec{
-    height: 900px;
+    height: 800px;
     width: 100%;
 }
 
@@ -233,10 +239,13 @@
 
 
 /*                 ABOUT SECTION                 */
+#about-sec{
+    height: 100px;
+}
 
 .about-sec{
     width: 100%;
-    height: 700px;
+    height: 500px;
 }
 
 .about-title{
@@ -266,6 +275,9 @@
 
 
 /*                  CONTACT SECTION                    */
+#contact-sec{
+    height: 100px;
+}
 
 .contact-sec{
     width: 70%;

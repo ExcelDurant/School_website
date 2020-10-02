@@ -352,3 +352,58 @@ input[type=submit]:hover{
 }
 
 /*                 END OF CONTACT SECTION               */
+
+
+/*                FOOTER SECTION                        */
+
+.footer{
+    height: 250px;
+    width: 100%;
+    background-color: gray;
+    padding-top: 30px;
+}
+
+.footer-contents{
+    height: 200px;
+    width: 100%;
+    
+}
+
+
+.footer-logo-container{
+    height: 100px;
+    width: 200px;
+    margin-left: 100px;
+    float: left;
+}
+
+.footer-links-sec{
+    float: left;
+    margin-left: 100px;
+}
+
+.footer-links{
+    margin-left: 20px;
+    color: white;
+}
+
+.footer h6{
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-icons{
+    float: left;
+    padding-top: 40px;
+    margin-left: 30px;
+}
+
+.footer-icons img{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+
+
+/*               END OF FOOTER SECTION                  */

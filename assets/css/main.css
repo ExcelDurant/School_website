@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.col-1-2{
+    width: 45%;
+}
+
+.col-1-3{
+    width: 30%;
+}
+
+.col-1-4{
+    width: 23%;
+}
+
+.full-image{
+    height: 100%;
+    width: 100%;
+}
+
+
+/*                                MAIN NAV SECTION                   */
+
+.main-nav{
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 3px 5px 10px #888888;
+}
+
+.logo-container{
+    height: 100%;
+    width: 200px;
+    float: left;
+}
+
+.links-section{
+    float: right;
+    height: 100%;
+}
+
+.navlinks{
+    display: inline-block;
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(27, 24, 24);
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navlinks:hover{
+    color: chocolate;
+}
+
+.active{
+    color: chocolate;
+}
+
+/*                      END OF MAIN NAV SECTION           */
+
+
+
+
+/*                       MAIN SECTION                    */
+
+.main-sec{
+    height: 500px;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    /* clip-path: circle(60px); */
+}
+
+.main-sec-txt{
+    float: left;
+    margin-top: 40px;
+}
+
+.main-sec-img{
+    float: right;
+}
+
+.main-sec-links{
+    display: inline-block;
+    width: 110px;
+    height: 30px;
+    color: white;
+    background-color: rgb(36, 35, 35);
+    padding: 5px 22px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-sec-links:hover{
+    background-color: chocolate;
+    color: white;
+    border: 1px solid rgb(243, 104, 5);
+}
+
+
+
+/*                      END OF MAIN SECTION              */
+
+
+
+/*                     CHOOSE US SECTION                */
+
+.choose-sec{
+    height: 500px;
+    width: 100%;
+}
+
+.choose-sec h2{
+    font-size: 40px;
+}
+
+.why-sec{
+    width: 90%;
+    margin: auto;
+}
+
+.why{
+    float: left;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.why-img-container{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+/*                     END OF CHOOSE US SECTION         */
+
+
+
+
+/*                    COURSES SECTION                 */
+
+.courses-sec{
+    width: 100%;
+    height: 1200px;
+    padding-top: 10px;
+    background-color: rgb(170, 165, 165);
+}
+
+.courses-title{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.course{
+    float: left;
+    margin: 10px;
+    height: 460px;
+    background-color: white;
+    text-align: center;
+}
+
+.course-btn{
+    display: block;
+    width: 150px;
+    height: 30px;
+    background-color: darkcyan;
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.course-img-container{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+
+/*                    END OF COURSES SECTION        */
+
+
+/*                   GALLERY SECTION               */
+
+.gallery-sec{
+    height: 900px;
+    width: 100%;
+}
+
+.gallery-title{
+    font-size: 43px;
+    text-align: center;
+}
+
+.gallery-txt{
+    font-size: 15px;
+    width: 80%;
+    margin: auto;
+}
+
+.gallery-images-sec{
+    margin-left: 20px;
+}
+
+.gallery-img-container{
+    float: left;
+    height: 300px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+
+
+
+/*                  END OF GALLERY SECTION        */
+
+
+
+/*                 ABOUT SECTION                 */
+
+.about-sec{
+    width: 100%;
+    height: 700px;
+}
+
+.about-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.about-img-container{
+    float: left;
+    overflow: hidden;
+    height: 450px;
+}
+
+.about-txt{
+    float: left;
+    margin-left: 15px;
+}
+
+.about-txt p{
+    font-size: 25px;
+}
+
+
+
+/*                  END OF ABOUT SECTION       */
